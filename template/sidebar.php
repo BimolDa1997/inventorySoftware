@@ -55,7 +55,7 @@
 						
                         <?php
 						
-						 $test = 'select f.feature_name,f.div_id,m.feature,m.id,f.icons from feature f, menu m, menu_permission p where m.id=p.menu_id and m.feature=f.id and p.user_id="'.$_SESSION['user_id'].'" and p.status="ACTIVE" group by m.feature';
+						$test = 'select f.feature_name,f.div_id,m.feature,m.id,f.icons from feature f, menu m, menu_permission p where m.id=p.menu_id and m.feature=f.id and p.user_id="'.$_SESSION['user_id'].'" and p.status="ACTIVE" group by m.feature';
 						
 						 $features = $conn->query($test);
 						 
@@ -89,7 +89,7 @@
 
 									<li class="<?php if($page_name==$data2['menu_name']){ echo 'nav-item active' ;
 	// Visited Pages Start								
-	$count = 0;
+	/*$count = 0;
     $sql = "SELECT visit_count FROM `most_visited_pages` WHERE page_name = '$page_name' AND user_id = ".$_SESSION['user_id']." ";
     $query = mysqli_query($conn, $sql);
     $row = mysqli_fetch_assoc($query);
@@ -101,7 +101,7 @@
     }else{
         $sql = "UPDATE `most_visited_pages` SET visit_count = '".($count+1)."', entry_at = '$entry_at'  WHERE page_name = '$page_name' AND user_id = ".$_SESSION['user_id']." ";
         $query = mysqli_query($conn, $sql);
-    }
+    }*/
 	//// Visited Pages END	
 									} ?>">
 
@@ -113,7 +113,7 @@
 
 									</li>
 
-									<? } ?>
+									<?php } ?>
 
 								</ul>
 
@@ -121,7 +121,7 @@
 
 						</li>
 
-                     <? } ?>
+                     <?php } ?>
 
 					</ul>
 
