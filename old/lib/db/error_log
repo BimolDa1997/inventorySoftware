@@ -1,0 +1,33 @@
+[20-Jan-2021 09:57:37 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/podcnloo/iron.erplogy.com/lib/db/connection.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/podcnloo/iron.erplogy.com/lib/db/connection.php on line 15
+[20-Jan-2021 09:57:42 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/podcnloo/iron.erplogy.com/lib/db/connection.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/podcnloo/iron.erplogy.com/lib/db/connection.php on line 15
+[20-Jan-2021 10:02:45 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/podcnloo/iron.erplogy.com/lib/db/connection.php:19
+Stack trace:
+#0 /home/podcnloo/iron.erplogy.com/lib/db/connection.php(15): connecttodb('localhost', 'podcnloo_mallik...', 'podcnloo_mallik...', 'M_sironmallik+0...')
+#1 {main}
+  thrown in /home/podcnloo/iron.erplogy.com/lib/db/connection.php on line 19
+[20-Jan-2021 10:02:50 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/podcnloo/iron.erplogy.com/lib/db/connection.php:19
+Stack trace:
+#0 /home/podcnloo/iron.erplogy.com/lib/db/connection.php(15): connecttodb('localhost', 'podcnloo_mallik...', 'podcnloo_mallik...', 'M_sironmallik+0...')
+#1 {main}
+  thrown in /home/podcnloo/iron.erplogy.com/lib/db/connection.php on line 19
+[20-Jan-2021 10:06:13 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/podcnloo/iron.erplogy.com/lib/db/connection.php:21
+Stack trace:
+#0 /home/podcnloo/iron.erplogy.com/lib/db/connection.php(17): connecttodb('localhost', 'podcnloo_mallik...', 'podcnloo_mallik...', 'M_sironmallik+0...')
+#1 {main}
+  thrown in /home/podcnloo/iron.erplogy.com/lib/db/connection.php on line 21
+[20-Jan-2021 10:17:36 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/podcnloo/iron.erplogy.com/lib/db/connection.php:21
+Stack trace:
+#0 /home/podcnloo/iron.erplogy.com/lib/db/connection.php(17): connecttodb('localhost', 'podcnloo_mallik...', 'podcnloo_mallik...', 'M_sironmallik+0...')
+#1 {main}
+  thrown in /home/podcnloo/iron.erplogy.com/lib/db/connection.php on line 21
+[20-Jan-2021 10:20:49 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/podcnloo/iron.erplogy.com/lib/db/connection.php:21
+Stack trace:
+#0 /home/podcnloo/iron.erplogy.com/lib/db/connection.php(17): connecttodb('localhost', 'podcnloo_mallik...', 'podcnloo_mallik...', 'M_sironmallik+0...')
+#1 {main}
+  thrown in /home/podcnloo/iron.erplogy.com/lib/db/connection.php on line 21
