@@ -3,8 +3,8 @@
   //Connection
   global $conn;
   $host = 'localhost';
-  $user = 'rbdrvzbx_ecom';
-  $pass = 'ecom@224424';
+  $user = 'root';
+  $pass = '';
   $db   = 'rbdrvzbx_ecom';
   
   $conn = new mysqli($host,$user,$pass,$db);
