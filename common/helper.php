@@ -108,17 +108,17 @@ try {
 
     $mail->isSMTP();                                            // Set mailer to use SMTP
 
-    $mail->Host       = 'premium273.web-hosting.com';  // Specify main and backup SMTP servers
+    $mail->Host       = '';  // Specify main and backup SMTP servers
 
     $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
 
-    $mail->Username   = 'info@rbdreliance.com';                     // SMTP username
+    $mail->Username   = '';                     // SMTP username
 
-    $mail->Password   = 'JWPXoEAUavUt';                               // SMTP password
+    $mail->Password   = '';                               // SMTP password
 
-    $mail->SMTPSecure = 'ssl';                                  // Enable TLS encryption, `ssl` also accepted
+    $mail->SMTPSecure = '';                                  // Enable TLS encryption, `ssl` also accepted
 
-    $mail->Port       = 465;  
+    $mail->Port       = '';  
 
     $mail->SMTPOptions = array(
         'ssl' => array(
@@ -128,8 +128,8 @@ try {
         )
     );
     
-	$from_email= "info@rbdreliance.com";
-	$from_name = "RBDreliance";
+	$from_email= "";
+	$from_name = "";
 	//$to_email = "kamrulerp@gmail.com";
 	$to_email = $to;
 	//$to_email= "bimol@erp.com.bd";
