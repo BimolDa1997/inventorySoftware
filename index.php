@@ -19,7 +19,7 @@ window.location.href = "pages/login.php";
 
 <style>
 .intro {
-    min-height:100vh;
+    min-height:100vh ;
     max-height:100vh;
     
     background-repeat:no-repeat;
